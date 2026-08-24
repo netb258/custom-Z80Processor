@@ -1,7 +1,7 @@
 # custom-Z80Processor
 This is a fork of Z80Processor (https://github.com/codesqueak/Z80Processor), that exposes the CPU interrupt line.
 
-Specifically version 2.0.2 of Z80Processor is used here. There are newer versions of this library, but v2.0.2 offers superior performance and backwards compatibility all the way back to Java 8.
+Specifically version 2.0.2 of Z80Processor is used here. There are newer versions of this library, but v2.0.2 offers superior backwards compatibility all the way back to Java 8.
 
 This project was created for the Sega Master System emulator found here: https://github.com/netb258/defn-system
 
