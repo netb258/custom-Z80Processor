@@ -200,6 +200,10 @@ public class Z80Core implements ICPUData {
         return reg_SP;
     }
 
+    public void setSP(int newVal) {
+        reg_SP = newVal;
+    }
+
     /**
      * Simulates asserting or releasing the Z80 INT pin.
      * Emulators can set this to 'true' at V-Blank, 
