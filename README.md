@@ -9,6 +9,8 @@ The original Z80Processor only exposed Non Maskable Interrupts through the Z80Co
 
 This fork also exposes Maskable interrupts by adding a new Z80Core method "setInterrupt".
 
+Also, a "setSP" method was added (previously only a "getSP" method was available).
+
 # Note on Building and Testing
 The original Z80Processor v2.0.2 used Gradle 3 (with out of date deps) to compile the code and run unit tests.
 
