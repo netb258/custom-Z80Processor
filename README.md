@@ -16,6 +16,8 @@ The original Z80Processor v2.0.2 used Gradle 3 (with out of date deps) to compil
 
 I found it difficult to run this Gradle 3 setup, so I wrote a simple project.clj that allows Leiningen to compile the code and run the tests.
 
+The old gradle setup is also included.
+
 # Building the code
 lein clean
 
